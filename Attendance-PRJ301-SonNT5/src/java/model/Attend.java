@@ -10,12 +10,10 @@ import java.sql.Date;
  *
  * @author Mr V
  */
-public class Class {
+public class Attend {
     private int schedule;
-    private String coursID;
-    private  Date attendDate;
+    private String coursID; 
+    private Date dateAttend;
     private boolean attend;
     private String note;
-    
-    
 }

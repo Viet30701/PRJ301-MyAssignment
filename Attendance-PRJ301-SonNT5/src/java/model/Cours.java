@@ -4,18 +4,13 @@
  */
 package model;
 
-import java.sql.Date;
-
 /**
  *
  * @author Mr V
  */
-public class Class {
-    private int schedule;
+public class Cours {
     private String coursID;
-    private  Date attendDate;
-    private boolean attend;
-    private String note;
-    
+    private String coursName;
+    private int totalSlot;
     
 }

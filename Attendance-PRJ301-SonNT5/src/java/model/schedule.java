@@ -4,10 +4,19 @@
  */
 package model;
 
+import java.sql.Date;
+
 /**
  *
  * @author Mr V
  */
-public class schedule {
+public class Schedule {
+
+    private String classID;
+    private String teacherID;
+    private String coursID;
+    private Date inDate;
+    private Date outDate;
+    
     
 }
